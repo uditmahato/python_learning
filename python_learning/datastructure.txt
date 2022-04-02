@@ -72,7 +72,40 @@ setdefault()	Returns the value of the specified key. If the key does not exist: 
 update()	Updates the dictionary with the specified key-value pairs
 values()	Returns a list of all the values in the dictionary
 
+note:List carry heteroginious elements whereas array carry homoginious element
 
-#python list carry hetereginious elements whereas arrays carry homogenious elements
+Stacks
+------
+-linear data structure
+-First in first out
+-operation can be performed on both front and back
+
+Trees
+--------
+-Trees are non-linear Data Structures which have root and nodes. 
+-The root is the node from where the data originates and the nodes are the other data points that are available to us. 
+-The node that precedes is the parent and the node after is called the child. There are levels a tree has to show the depth of information. 
+-The last nodes are called the leaves. 
+-Trees create a hierarchy which can be used in a lot of real-world applications such as the HTML pages use trees to distinguish which tag comes under which block. 
+-It is also efficient in searching purposes and much more.
+
+Linked list
+------------
+Linked lists are linear Data Structures which are not stored consequently but are linked with each other using pointers. 
+The node of a linked list is composed of data and a pointer called next. 
+These structures are most widely used in image viewing applications, music player applications and so forth.
+
+Graphs
+--------
+Graphs are used to store data collection of points called vertices (nodes) and edges (edges). Graphs can be called as the most accurate representation of a real-world map. They are used to find the various cost-to-distance between the various data points called as the nodes and hence find the least path. Many applications such as Google Maps, Uber, and many more use Graphs to find the least distance and increase profits in the best ways.
+
+Hashmaps
+--------
+HashMaps are the same as what dictionaries are in Python. They can be used to implement applications such as phonebooks, populate data according to the lists and much more.
+
+That wraps up all the prominent Data Structures in Python. I hope you have understood built-in as well as the user-defined Data Structures that we have in Python and why they are important.
+
+
+
 
 
