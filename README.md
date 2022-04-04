@@ -7,3 +7,4 @@ Code of my Python Roadmaps
 #4. Loops
 #5. Function
 #6. Lambada
+#7. Inheritence
