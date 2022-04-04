@@ -5,3 +5,4 @@ Code of my Python Roadmaps
 #2. Variables & data types
 #3. Conditionals
 #4. Loops
+#5. Function
