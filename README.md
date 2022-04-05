@@ -10,3 +10,4 @@ Code of my Python Roadmaps
 #7. Inheritence
 #8. Classes and object
 #9. Data structure(list, tuples, dictionary,set, stack, queue) 
+#10. Math
