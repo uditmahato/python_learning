@@ -15,6 +15,7 @@ Code of my Python Roadmaps
 #12. json
 #13. Exception handling
 #14. File input output
+python string formatting
 Python data base
 python inbuilt functions
 python libraries
