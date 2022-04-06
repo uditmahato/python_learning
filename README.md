@@ -16,4 +16,4 @@ Code of my Python Roadmaps
 #13. Exception handling
 #14. File input output
 Python data base
-pytho inbuilt functions
+python inbuilt functions
