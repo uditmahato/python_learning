@@ -20,3 +20,4 @@ python inbuilt functions
 python libraries
 python mongodb
 webscrapping
+machine learning
