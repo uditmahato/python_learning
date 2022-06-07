@@ -8,3 +8,7 @@ print(a+b)
 print(a+' '+b)
 
 print(a+b+c)
+
+#delete  first name
+del c
+print(c)
