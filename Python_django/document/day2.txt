@@ -5,4 +5,6 @@ Method(written inside class) vs Function(written outside class)
 
 Snake case is Naming convention in python
 
+Fundamental data dypes in python are immutable
 
+Creatig value is  expensive process
