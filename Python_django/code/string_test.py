@@ -16,3 +16,6 @@ print(c)
 
 #len
 print(len('is awesome'))
+
+#string check
+print('s' in a)
