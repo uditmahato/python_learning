@@ -12,3 +12,7 @@ print(a+b+c)
 #delete  first name
 del c
 print(c)
+
+
+#len
+print(len('is awesome'))
