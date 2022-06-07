@@ -19,3 +19,6 @@ print(len('is awesome'))
 
 #string check
 print('s' in a)
+
+#use of not while checking
+print('not s' in a)
