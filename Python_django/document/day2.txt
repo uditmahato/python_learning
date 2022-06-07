@@ -1,4 +1,8 @@
 Python is dynamically typed
 
-
 Data type helps us to define space block
+Method(written inside class) vs Function(written outside class)
+
+Snake case is Naming convention in python
+
+
