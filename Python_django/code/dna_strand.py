@@ -1,12 +1,14 @@
 def DNA_strand(dna):
     # code here
+    list=[]
     for i in dna:
         if i=='A':
-            return('T')
+            list.append('T')
         elif i=='T':
-            return ('A')
+            list.append('A')
         elif i=='G':
-            return('C')
+            list.append('C')
         else:
-            return('G')
+            list.append('G')
+    return ''.join(list)
 DNA_strand('ATCGT')
