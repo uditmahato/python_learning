@@ -54,3 +54,12 @@ print(d[-2])
 print(d[0:6:2])
 print(d[0:6:3])
 
+#functions of list
+#append
+d.append(10)
+print(d)
+
+#del
+del d[0]
+print(d)
+

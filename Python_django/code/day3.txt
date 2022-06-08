@@ -1,0 +1,3 @@
+List is heterogeneous that contains a mixture of different type of data.
+ 
+-List is indexed
