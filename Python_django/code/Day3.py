@@ -63,3 +63,49 @@ print(d)
 del d[0]
 print(d)
 
+#insert
+d.insert(0,10)  #edge case of insert
+print(d)
+
+#remove
+d.remove(10)
+print(d)
+
+#pop
+d.pop()
+print(d)
+
+#pop with index
+d.pop(0)
+print(d)
+
+#copy
+d1=d.copy()
+print(d1)
+
+#clear
+d1.clear()
+print(d1)
+
+#len of list
+print(len(d1))
+
+#check if element is in the list
+print(10 in d1)
+print(10 not in d1)
+
+#reate new list 
+d2=list(range(1,10))
+print(d2)
+
+#reverse list
+d2.reverse()
+print(d2)
+
+#sort list
+d2.sort()
+print(d2)
+
+#sort list in reverse order
+d2.sort(reverse=True)
+print(d2)
