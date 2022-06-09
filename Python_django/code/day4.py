@@ -20,4 +20,6 @@ print(len(tuple))
 #loop through tuple
 for i in tuple:
     print(i)
-    
+#join tuple
+print("".join(tuple))   
+
