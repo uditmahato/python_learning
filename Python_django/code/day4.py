@@ -21,5 +21,10 @@ print(len(tuple))
 for i in tuple:
     print(i)
 #join tuple
-print("".join(tuple))   
+print(tuple+heterogenious_tuple)   
 
+#count in tuple
+print(tuple.count(1))
+
+#index in tuple
+print(tuple.index(1))
