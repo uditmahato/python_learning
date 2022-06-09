@@ -16,3 +16,8 @@ print(tuple[-1])
 
 #length of tuple
 print(len(tuple))
+
+#loop through tuple
+for i in tuple:
+    print(i)
+    
