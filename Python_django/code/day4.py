@@ -13,3 +13,6 @@ print(heterogenious_tuple)
 
 print(tuple[0])
 print(tuple[-1])
+
+#length of tuple
+print(len(tuple))
