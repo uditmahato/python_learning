@@ -45,4 +45,8 @@ d = {'name':'John', 'age':30, 'city':'New York'}
 print(d['name'])
 print(d['age'])
 
+# Dictionary slicing
+print(d['name':'age'])
+
+
 
