@@ -38,5 +38,7 @@ print(tuple.index(1))
 # Dictionary is iterable
 # Dictionary is sequence
 
+# Dictionary creation
+d = {'name':'John', 'age':30, 'city':'New York'}
 
 
