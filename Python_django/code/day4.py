@@ -51,4 +51,8 @@ print(d['name':'age'])
 # Dictionary length
 print(len(d))
 
+# Dictionary keys
+print(d.keys())
+
+
 
