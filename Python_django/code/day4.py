@@ -28,3 +28,15 @@ print(tuple.count(1))
 
 #index in tuple
 print(tuple.index(1))
+
+
+# Dictionary
+# Dictionary is a collection of key-value pairs
+# Dictionary is mutable
+# Dictionary is unordered
+# Dictionary is indexed
+# Dictionary is iterable
+# Dictionary is sequence
+
+
+
