@@ -48,5 +48,7 @@ print(d['age'])
 # Dictionary slicing
 print(d['name':'age'])
 
+# Dictionary length
+print(len(d))
 
 
