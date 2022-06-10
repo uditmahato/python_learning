@@ -41,4 +41,8 @@ print(tuple.index(1))
 # Dictionary creation
 d = {'name':'John', 'age':30, 'city':'New York'}
 
+# Dictionary indexing
+print(d['name'])
+print(d['age'])
+
 
