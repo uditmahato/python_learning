@@ -23,3 +23,8 @@ print(set3)
 # access item in set
 for x in set3:
     print(x)
+
+#add items in set
+set3.add(11)
+print(set3)
+
