@@ -31,3 +31,7 @@ print(set3)
 #Join sets
 set4 = set1.union(set2)
 print(set4)
+
+#Remove set items
+set4.remove(4)
+print(set4)
