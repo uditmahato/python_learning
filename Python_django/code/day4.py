@@ -45,8 +45,8 @@ d = {'name':'John', 'age':30, 'city':'New York'}
 print(d['name'])
 print(d['age'])
 
-# Dictionary slicing
-print(d['name':'age'])
+# # Dictionary slicing
+# print(d['name':'age'])
 
 # Dictionary length
 print(len(d))
@@ -54,5 +54,33 @@ print(len(d))
 # Dictionary keys
 print(d.keys())
 
+# Dictionary values
+print(d.values())
 
+# Dictionary items
+print(d.items())
+
+# Dictionary update
+d.update({'name':'John', 'age':30, 'city':'New York'})
+print(d)
+
+# Dictionary copy
+d1 = d.copy()
+print(d1)
+
+#dictionary clear
+d1.clear()
+print(d1)
+
+# dictionary pop
+d.pop('name')
+print(d)
+
+# dictionary pop with index
+d.pop('age')
+print(d)
+
+# dictionary pop with default value
+d.pop('city', 'default value')
+print(d)
 
