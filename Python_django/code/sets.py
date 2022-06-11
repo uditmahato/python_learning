@@ -35,3 +35,11 @@ print(set4)
 #Remove set items
 set4.remove(4)
 print(set4)
+
+# pop items in set
+set4.pop()
+print(set4)
+
+#clear  
+set4.clear()
+print(set4)
