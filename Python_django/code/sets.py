@@ -28,3 +28,6 @@ for x in set3:
 set3.add(11)
 print(set3)
 
+#Join sets
+set4 = set1.union(set2)
+print(set4)
