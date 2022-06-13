@@ -28,4 +28,13 @@ elif Value < 0:
     print("Value is negative")
 else:
     print("Value is zero")
-    
+
+# if else boolean
+# if else boolean is used to execute one of two statements based on a condition.
+# if else boolean is used to execute one of two statements based on a condition.  It is used after if.
+# example
+# if condition: 
+#     statement
+# else:
+#     statement
+
