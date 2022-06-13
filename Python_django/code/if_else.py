@@ -47,3 +47,24 @@ if x==True:
 else:
     print("This is not true")
 
+
+#another example   
+a=0
+if a==0:
+    print("a is zero")
+elif a==1:
+    print("a is one")
+elif a==2:
+    print("a is two")
+elif a==3:
+    print("a is three")
+elif a==4:
+    print("a is four")
+else:
+    print
+
+#comprehension example
+
+#example
+a=10 if a>10 else 20
+print(a)
