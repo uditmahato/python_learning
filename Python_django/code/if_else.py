@@ -38,3 +38,12 @@ else:
 # else:
 #     statement
 
+#pass example
+# pass is used to do nothing.
+#code
+x=False
+if x==True:
+    pass
+else:
+    print("This is not true")
+
