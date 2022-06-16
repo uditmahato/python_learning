@@ -15,3 +15,14 @@ for i in range(10):
         continue
     print(i)
 print("Done")
+
+# else in for loop
+# else is used to execute a block of code when the loop is finished.
+# else example
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+else:
+    print("Done")
+    
