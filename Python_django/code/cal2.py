@@ -1,18 +1,18 @@
-
-def add():
+def add(a,b):
     print(f'The sum of {a} and{b} is {a+b}' )
-def sub():
+def sub(a,b):
     if a>b:
         print(f'The subtraction {a} and {b} is {(a-b)}' )
     else:
         print(f'The subtraction {a} and {b} is {-1*(a-b)}' )
-def mul():
+def mul(a,b):
     print(f'The multiplication of {a} and {b} is {a*b}')
-def div():
+def div(a,b):
     if a>b:
         print(f'The division of {a} by {b} is {a/b}' )
     else:
         print(f'The division of {b} by {a} is {b/a}' )
+
 
 #take input from user
 a=int(input('Enter  the first number : '))
@@ -22,14 +22,14 @@ o=input('Enter the operation : ')
 # select the operator to perform task
 
 if o=='+':
-    add()
+    add(a,b)
         
 elif o=='-':
-    sub()  
+    sub(a,b)  
 elif o=='*':
-    mul()
+    mul(a,b)
 elif div=='/':
-    div()
+    div(a,b)
 else:
     print('Invalid operator')
     
