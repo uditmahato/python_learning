@@ -1,0 +1,2 @@
+If you use open with 'with' we don't need to close the file
+
