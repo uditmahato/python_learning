@@ -6,3 +6,8 @@ packages are collections of modules
 library are collections of packages
 
 framework is collection of libraries
+
+
+#PIP is a package manager for python(python install package)
+_init_.py=dunder(double underscore)
+
