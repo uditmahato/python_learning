@@ -1,0 +1,8 @@
+modules are collectio of functions
+# that can be used in the program
+
+packages are collections of modules
+
+library are collections of packages
+
+framework is collection of libraries
