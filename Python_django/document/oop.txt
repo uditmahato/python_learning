@@ -1,0 +1,45 @@
+class is blueprint of the object
+Object is a instanciation of the class
+
+
+class person():
+   pass
+
+p=person()
+
+p is refresh variable here we are creating object of the class person
+
+
+dunder....constructor is anything that builds( initializer because initialize property of an object) the object.
+It also determine the size of the object.
+
+
+
+#in python everything is an object because all the data has method like sort
+
+
+##variables in OOP 
+1.Instance variable --variable whose value changes from object to object also called object variable-
+in class self
+and outiside class object name
+
+
+2.Static Variable or Class variable --variable whose value changes from class to class
+
+
+Instance Method must have  self as first parameter
+IT is used access the data of Instance Variable
+It is called by object name
+
+Class method must have class as first parameter
+IT is used to access the data of Class Variable
+It is called by class name
+
+
+Static method doesn't depend on neither class nor object
+It is called by the name of class
+
+
+
+
+
