@@ -25,7 +25,7 @@ class Sunway_Student:
 
     
 s=Sunway_Student('Umesh',25)
-print(s.get_school_name())
-
+#private variable   
+# s.__age()
 s.set_age(20)
 print(s.get_age())
