@@ -1,5 +1,21 @@
 class is blueprint of the object
+
+how the thing will look 
+
 Object is a instanciation of the class
+several objects can be made in a class
+
+init is not required in python
+init is a special method that is called when an object is created
+init is used to initialize the object
+init is used to set the default values of the object
+init is used to set the values of the object
+init also determine the size of the object
+
+
+cls determine current class
+reference variable points object
+also used to change the property of object
 
 
 class person():
@@ -33,12 +49,17 @@ It is called by object name
 
 Class method must have class as first parameter
 IT is used to access the data of Class Variable
-It is called by class name
+It is called by class name if inside class
+and used cls if in method
+class is reserved word
 
 
 Static method doesn't depend on neither class nor object
 It is called by the name of class
 
+
+if you can access the data from outiside of the class  then it is insecure because it ca be changed by anyone 
+with unwanted value o we need to hide it
 
 
 
