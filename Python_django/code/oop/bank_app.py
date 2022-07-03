@@ -21,7 +21,7 @@ class Bank_Account:
         print('Tihar Holiday')
 user_account=None
 while True:
-    user_choice=input('Enter 1 to open bank account.\nEnter 2 to  check balance.\nEnter 3 to deposit balance.\nEnter 4 to withdraw balance.\nEnter 5 to Get interest Rate.\nEnter 6 to change interest rate. \nEnter 7 to check holiday.\n')
+    user_choice=input('Enter 1 to open bank account.\nEnter 2 to check balance.\nEnter 3 to deposit balance.\nEnter 4 to withdraw balance.\nEnter 5 to Get interest Rate.\nEnter 6 to change interest rate. \nEnter 7 to check holiday.\n')
     if user_choice =='1':
         fn=input('Enter First Name : ')
         ln=input('Enter Last Name : ')
@@ -30,10 +30,10 @@ while True:
     elif user_choice=='2':
         user_account.check_balance()
     elif user_choice=='3':
-        balance=input('Enter deposit amount:  ')
+        balance=int(input('Enter deposit amount:  '))
         user_account.deposit_balance(balance)
     elif user_choice=='4':
-        withdraw=input('Enter the withdrawl amount : ')
+        withdraw=int(input('Enter the withdrawl amount : '))
         user_account.withdraw_balance(withdraw)
     elif user_choice=='5':
         user_account.get_interest_rate()
