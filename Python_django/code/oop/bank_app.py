@@ -17,13 +17,16 @@ class Bank_Account:
     @classmethod
     def set_interest_rate(cls):
         pass
+    @classmethod
+    def get_bank_name(cls):
+        return cls.__bank_name
     @staticmethod
     def print_holiday_list():
         print('Tihar Holiday')
 user_account=None
 while True:
     print('*************************************************************')
-    print('Welcome to the {bank_name}')
+    print('Welcome to the {Bank_Account.get_bank_name()}')
     user_choice=input('Enter 1 to open bank account.\nEnter 2 to check balance.\nEnter 3 to deposit balance.\nEnter 4 to withdraw balance.\nEnter 5 to Get interest Rate.\nEnter 6 to change interest rate. \nEnter 7 to check holiday.\n')
     if user_choice =='1':
         fn=input('Enter First Name : ')
@@ -31,13 +34,17 @@ while True:
         user_account=Bank_Account(fn,ln)
         print('Congratulations! You have opened a bank account with us.')
     elif user_choice=='2':
-        user_account.check_balance()
+        print('Your balance is {}'.format(user_account.__balance))
     elif user_choice=='3':
         balance=int(input('Enter deposit amount:  '))
         user_account.deposit_balance(balance)
+        print('Deposit Successful')
+        print('Your balance is {}'.format(user_account.__balance))
     elif user_choice=='4':
         withdraw=int(input('Enter the withdrawl amount : '))
         user_account.withdraw_balance(withdraw)
+        print('Withdrawl Successful')
+        print('Your balance is {}'.format(user_account.__balance))
     elif user_choice=='5':
         user_account.get_interest_rate()
     elif user_choice=='6':
