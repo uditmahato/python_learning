@@ -1,9 +1,10 @@
 class Bank_Account:
+    __interest_rate=12
+    __bank_name='Bank of Sunway'
     def __init__(self,first_name,last_name):
         self.__first_name=first_name
         self.__last_name=last_name
         self.__balance=0
-
     def check_balance(self):
         print(f'Your balance is {self.__balance}')
     def deposit_balance(self,deposit_amt):
@@ -21,6 +22,8 @@ class Bank_Account:
         print('Tihar Holiday')
 user_account=None
 while True:
+    print('*************************************************************')
+    print('Welcome to the {bank_name}')
     user_choice=input('Enter 1 to open bank account.\nEnter 2 to check balance.\nEnter 3 to deposit balance.\nEnter 4 to withdraw balance.\nEnter 5 to Get interest Rate.\nEnter 6 to change interest rate. \nEnter 7 to check holiday.\n')
     if user_choice =='1':
         fn=input('Enter First Name : ')
